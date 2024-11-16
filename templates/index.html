@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <link ref="stylesheet" href="../static/styles.css">
+  </head>
+ 
+  <body>
+
+    <div id="myDiv" class="header">
+        <h2>To Do List</h2>
+        <form id="form" action="{{ url_for("hello") }}" method="post">
+            <input type="text" id="todo" placeholder="Enter your todo" name="todo">
+            <button id="add" type="submit"> Add </button>   
+        </form>
+    </div>
+  </body>
+</html>
