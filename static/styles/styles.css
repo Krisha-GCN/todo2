@@ -1,0 +1,24 @@
+button {
+  background-color: rgb(234, 231, 251);
+  border: none;
+  color: #709bdb;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Style the header */
+h2 {
+  background-color: rgb(217, 211, 250);
+  padding: 30px 40px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+p {
+  text-indent: 100px;
+  line-height: 5.8;
+}
+
